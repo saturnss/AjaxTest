@@ -4,6 +4,7 @@ $REPORT = $_REQUEST["r"];
 
 $REPORT_NAME = "";
 $XML = '';
+// Using the report option selected, return the second option and the report name //
 switch($REPORT){
 	case "report1":
 		$REPORT_NAME = "Report 1";

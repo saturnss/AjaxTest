@@ -3,18 +3,20 @@
 <HEAD>
 <TITLE>Ajax Test</TITLE>
 <STYLE></STYLE>
-<script src="javascript/base.js?v=1.0.2"></script>
+<script src="javascript/base.js?v=1.0.3"></script>
 <SCRIPT>
 </SCRIPT>
 </HEAD>
 <BODY>
 	Select a Report: 
+	<!-- Report Options -->
 	<select id="reportSelect" name="reportSelect" onchange="chooseReport(this.value);">
 		<option value=""></option>
 		<option value="report1">Report 1</option>
 		<option value="report2">Report 2</option>
 		<option value="report3">Report 3</option>
 	</select>
+	<!-- Div to display back information based on what report was selected -->
 	<div id="reportOptions">
 		No Report Selected
 	</div>
